@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&family=Slabo+27px&display=swap');
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.block-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 1340px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-around;
+}
+ 
+#lower-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    height: 50px;
+    color: #656565;
+    background-color: #E3E3E3;
+    padding: 0 40px;
+}
+
+.header-info a {
+    text-decoration: none;
+    color: #6EA06D;
+}
+
+.header-info a:hover {
+    text-decoration: none;
+    color: #FA846D;
+}
+
+#header-btn {
+    width: 240px;
+    background-color: #6EA06D; 
+    border: none;
+    color: white;
+    transition: 500ms;
+}
+
+#header-btn:hover {
+    background: rgba(43, 82, 42, 0.9);
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 10;
+    background-color: #FFFFFF;
+    width: 692px;
+    height: 700px;
+    max-width: 80%;
+    padding: 60px;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header .title {
+    font-weight: bold;
+    font-size: 25px;
+    font-size: 50px;
+    font-family: 'Catamaran', sans-serif;
+    color: #2C2D2F;
+    background-color: #E3E3E3;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 10px 15px;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 0.5;
+    pointer-events: all;
+}
+
+ #form {
+    display: none;
+ }
+
+ .input {
+    display: block;
+    margin: 0 0 15px;
+    padding: 22px 25px;
+    width: 532px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+ }
+
+ .input:focus {
+    border: 1px solid #DC3232;
+ }
+
+ #input-name {
+    height: 73px;
+ }
+
+ #input-phone {
+    height: 73px;
+ }
+
+ #input-info {
+    height: 150px;
+ }
+
+ #header-links {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+ }
+
+ .link {
+    background-color: #FFFFFF; 
+    border: none;
+    color: #656565;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+ }
+
+ a {
+    text-decoration: none;
+    color: #2C2D2F;
+ }
+
+
+ .dropdown.active > .link,
+ .link:hover {
+    color: #FA846D;
+ }
+
+ #header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+
+.header-icons {
+    margin: 0 0 0 50px;
+    text-align: right;
+}
+
+.fa-brands {
+    color: #FFFFFF;
+    width: 46px;
+    height: 46px;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 13px;
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    opacity: 0.9;
+}
+
+.fa-twitter {
+    background-color: #1DA1F2;
+}
+
+.fa-youtube {
+    background-color: #CD201F;
+}
+
+.fa-facebook {
+    background-color: #3B5998;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + .7rem);
+    background-color: #6EA06D;
+    color: #FFFFFF;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 300;
+    padding: 25px 50px 25px 25px;
+    opacity: 0;
+    transition: opasity 1000ms ease-in-out;
+    pointer-events: none;
+}
+
+.dropdown.active > .link + .dropdown-menu {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#submit-area {
+    display: flex;
+    width: 532px;
+    margin-top: 20px;
+}
+
+#submit-btn {
+    width: 240px;
+    background-color: #656565; 
+    border: none;
+    color: white;
+    transition: 500ms;
+}
+
+#label {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #656565;
+}
+
+input[type=checkbox]
+{
+    background-color: #DDD;
+    border-radius: 0;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    top: 5px;
+}
+
+.btn-active {
+    background-color: #FA846D;
+    
+}
+
+
+
+ 

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/2ef33ed9e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="block-wrap">
+        <header class="header">
+            <div class="upper-header">
+                <div class="header-info">
+                    <div>
+                        <p>We are here to help you! Call us:
+                            <a href="tel:0 800 555 44 22"> 0 800 555 44 22</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Ready to get help? Our Treatment Consultants are available 24/7.
+                        </p>
+                    </div>
+                </div>
+                <button id="header-btn">REQUEST A CALL</button>
+                <div class="modal" id="modal">
+                    <div class="modal-header">
+                        <h2 class="title">Request a call</h2>
+                        <button id="close-button">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" class="input" id="input-name" placeholder="Name" required>
+                        <input type="tel" class="input" id="input-phone" placeholder="Phone" required>
+                        <textarea name="info" class="input" id="input-info" cols="30" rows="10" placeholder="What would you like to know?"></textarea>
+                        <div id="submit-area">
+                            <input type="checkbox" id="checkbox" name="form-submit" value="submit" required>
+                            <label for="form-submit" id="label"> I agree that my submitted data is being collected and stored.</label>
+                            <button id="submit-btn" disabled>SEND MESSAGE</button>
+                        </div>
+                    </div>
+            </div>
+
+            <div id="overlay"></div>  
+        </header>
+    </div>
+
+    <div class="block-wrap">
+        <div class="header">
+            <div id="lower-header">
+                <img src="images/logo.png" id="logo" alt="">
+                <div id="header-menu">
+                    <div id="header-links">
+                        <div class="dropdown" data-dropdown>
+                            <button class="link" data-dropdown-button>Home</button>
+                            <div class="dropdown-menu" data-dropdown-menu>
+                                Dropdown content
+                            </div>
+                        </div>
+                        <div class="dropdown" data-dropdown>
+                            <button class="link" data-dropdown-button>Features</button>
+                            <div class="dropdown-menu" data-dropdown-menu>
+                                Dropdown content
+                            </div>
+                        </div>
+                    
+                       <div class="dropdown" data-dropdown>
+                            <button class="link" data-dropdown-button>Why us</button>
+                            <div class="dropdown-menu" data-dropdown-menu>
+                                Dropdown content
+                            </div>
+                       </div>
+                       <div class="dropdown" data-dropdown>
+                            <button class="link" data-dropdown-button>Programs</button>
+                            <div class="dropdown-menu" data-dropdown-menu>
+                                Dropdown content
+                            </div>
+                       </div>
+        
+                        <a href="#" class="link">Admissions</a>
+                        <div class="dropdown" data-dropdown>
+                            <button class="link" data-dropdown-button>Locations</button>
+                            <div class="dropdown-menu" data-dropdown-menu>
+                                Dropdown content
+                            </div>
+                        </div>
+                       
+                        <a href="#" class="link">Talk to us</a>
+                    </div>
+                    <div class="header-icons">
+                        <a href="https://twitter.com/">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://www.youtube.com/">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                       
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                       
+
+
+                    </div>
+                    
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
