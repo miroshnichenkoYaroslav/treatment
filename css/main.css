@@ -19,9 +19,6 @@
     padding: 0px 27px;
 }
 
-
-
-
 .block2_element1{
     background-image: url('../img/image-33-copyright.jpeg');
     background-position: top center;
@@ -29,8 +26,16 @@
     background-size: cover;
 }
 
-.block2_wrap1{
-height: 180px;
+.block2_wrap{
+    display: block;
+}
+
+.block2_wrap1 .block2_wrap2 .block2_wrap3 .block2_wrap4 .block2_wrap5 .block2_wrap6{
+    display: block;
+}
+
+.block2_wrap1_element1{
+    height: 180px;
 }
 
 .block2_wrap2_element1{
@@ -111,7 +116,315 @@ height: 180px;
     background: #426342;
 }
 
-.block2_wrap6{
+.block2_wrap6_element1{
     width: 450px;
     height: 150px;
+}
+
+
+
+
+.block2_element2{
+    background-color: #6EA06D;
+    background-image: url('../img/pattern-copyright.webp');
+}
+
+.block2_element2_block{
+
+}
+
+.block2_element2_colum{
+    display: block;
+}
+
+.block2_element2_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.block2_element2_wrap1{
+    width: 200px;
+    height: 50px;
+}
+
+
+.block2_element2_categories{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block2_element2_categories_element1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.block2_element2_categories_element2_style{
+    text-align: center;
+}
+
+
+.block2_element2_wrap3{
+    width: 200px;
+    height: 50px;
+}
+
+.block2_element2_categories1{
+    padding: 20px;
+}
+.block2_element2_categories2{
+    padding: 20px;
+}
+.block2_element2_categories3{
+    padding: 20px;
+}
+
+.block2_element2_categories_element1{
+    background-color: white;
+    border-radius: 30px;
+    padding: 3px;
+    
+}
+
+.block2_element2_categories_element2_style1{
+    font-family: "Bodonitown",serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -0.025em;
+    color: #ffffff;
+}
+
+.block2_element2_categories_element2_style2{
+    font-family: "Slabo27px",serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    text-decoration: none;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.block2_element2_categories_element2_style3{
+    font-family: "Saira Condensed",sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #426342 ;
+}
+
+
+.block3{
+    padding: 155px 0px 130px 0px;
+}
+
+.block3_element1{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.block3_element_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.block3_colum1_block_size{
+    display: flex;
+    flex-direction: column;
+}
+
+.block3_colum1_img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+
+.block3_colum1_element1{
+    margin-top: 10px;
+    padding: 60px 40px 60px 50px;
+    background-color: #e3e3e3;;
+}
+
+.block3_colum1_element2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.block3_colum1_icon{
+font-size: 30px;
+margin: 15px;
+padding: 10px;
+color: white;
+background-color: #6EA06D;
+border-radius: 30px;
+}
+
+.block3_colum1_text1{
+    font-family: "SaraCondensed",sans-serif;
+    color: #6EA06D;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.block3_colum1_text2{
+    font-family: "Bodonitown",serif;
+    color: #2C2D2F;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -0.035em;
+}
+
+.block3_colum1_text3{
+    font-family: "Slabo27px",serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    text-decoration: none;
+    text-transform: none;
+    color: #656565;
+
+}
+
+
+.block3_colum2_block{
+    display: flex;
+    padding-right: 40px;
+    padding-left: 5px;
+}
+.block3_colum2_row{
+    height: auto;
+    width: 90px;
+}
+
+.block3_colum2_flex{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 430px;
+}
+
+.block3_colum2_text1{
+    font-family: "Bodonitown",serif;
+    font-size: 4rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 0.9em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -0.035em;
+    margin-top: 1.06em;
+    margin-bottom: 0.77em;
+    margin: 0;
+}
+
+.block3_colum2_text2{
+    font-family: "Slabo27px",serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    text-decoration: none;
+    text-transform: none;
+    margin-top: 25px;
+    margin-right: 100px;
+    color: #656565;
+}
+
+.block3_colum2_element2{
+    height: 30px;
+    width: 420px;
+}
+
+.block3_input1{
+display: flex;
+
+}
+
+.block3_input_name_block{
+ padding-right: 15px;
+}
+
+.block3_input_name{
+    height: 65px;
+    width: 185px;
+}
+
+.block3_input_email{
+    height: 65px;
+    width: 200px;
+    margin-bottom: 15px;
+
+}
+
+.block3_input_data{
+    height: 65px;
+    width: 411px;
+    margin-bottom: 15px;
+
+}
+
+.block3_input_what{
+    height: 135px;
+    width: 408px;
+    margin-bottom: 15px;
+
+
+}
+
+
+.block3_checkbox_button{
+    display: flex;
+}
+.block3_colum2_text3{
+    font-family: "Slabo27px",serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    text-decoration: none;
+    text-transform: none;
+    color: #656565;
+
+    
+}
+
+.block3_colum2_button{
+    font-family: "Saira Condensed",sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    background-color: #7b7b7b !important;
+    color: #ffffff !important;
+    height: 64px;
+    width: 224px;
+    border: none;
+    margin-left: 10px;
 }
